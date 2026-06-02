@@ -82,7 +82,7 @@ Stores product-level transaction details.
 
 # 🔗 OLTP Relationships
 
-- customers → orders (1:M)
+- customer → orders (1:M)
 - orders → order_items (1:M)
 - products → order_items (1:M)
 
@@ -170,14 +170,14 @@ CREATE DATABASE ecommerce_ai_dw;
 # 🧱 Tables Created
 
 ## OLTP Tables
-- customers
+- customer
 - products
 - orders
 - order_items
 
 ## Star Schema Tables
 - dim_customer
-- dim_product
+- dim_products
 - dim_date
 - fact_sales
 
@@ -193,7 +193,7 @@ Implemented:
 
 Examples:
 - orders.customer_id → customers.customer_id
-- fact_sales.product_key → dim_product.product_key
+- fact_sales.product_id → dim_product.product_id
 
 ---
 
@@ -232,6 +232,233 @@ E-commerce_analytics/
 - Table creation
 - PK/FK relationships
 - Warehouse table implementation
+
+---
+
+# 🗓️ Day 3 — Data Generation & Warehouse Loading
+
+## 🎯 Objective
+
+Populate the E-commerce Data Warehouse with realistic sample data and prepare the environment for analytical querying.
+
+---
+
+# 🛠️ Data Generation
+
+Generated realistic sample data to simulate an e-commerce business environment.
+
+## Dataset Coverage
+
+### 👤 customer
+
+Generated customer information including:
+
+* Customer ID
+* Customer Name
+* Email Address
+* City
+
+### 📦 products
+
+Generated product catalog containing:
+
+* Product ID
+* Product Name
+* Category
+* Price
+
+### 🧾 orders
+
+Generated order transactions with:
+
+* Customer References
+* Order Dates
+
+### 🛒 order_items
+
+Generated detailed sales transactions:
+
+* Product References
+* Quantity
+* Unit Price
+
+---
+
+# 📊 Dataset Statistics
+
+| Entity      | Approximate Records |
+| ----------- | ------------------- |
+| Customers   | 1,000               |
+| Products    | 100                 |
+| Orders      | 5,000               |
+| Order Items | 10,000+             |
+
+---
+
+# 🔄 ETL & Data Warehouse Loading
+
+Performed transformation from OLTP tables into the dimensional model.
+
+## Dimension Population
+
+Loaded:
+
+* dim_customer
+* dim_products
+* dim_date
+
+## Fact Population
+
+Loaded:
+
+* fact_sales
+
+Calculated metrics:
+
+* Quantity Sold
+* Total Revenue
+
+---
+
+# 🔗 Data Flow
+
+```text
+customer      ──► dim_customer
+
+products       ──► dim_products
+
+orders         ──► dim_date
+
+order_items    ──► fact_sales
+```
+
+---
+
+# 📚 Key Learnings
+
+* Sample data generation
+* Data validation
+* ETL fundamentals
+* OLTP to OLAP transformation
+* Fact and Dimension loading strategies
+
+---
+
+# 🗓️ Day 4 — Analytics SQL Development
+
+## 🎯 Objective
+
+Develop analytical SQL queries on the Star Schema to answer business questions and generate actionable insights.
+
+---
+
+# 📊 Analytics Layer
+
+Built reporting queries using:
+
+* fact_sales
+* dim_customer
+* dim_products
+* dim_date
+
+---
+
+# 💰 Revenue Analytics
+
+Implemented queries for:
+
+* Total Revenue
+* Revenue by Month
+* Revenue by Quarter
+* Revenue by Year
+
+---
+
+# 👤 Customer Analytics
+
+Implemented queries for:
+
+* Top Customers by Revenue
+* Customer Purchase Frequency
+* Average Customer Spend
+
+---
+
+# 📦 Product Analytics
+
+Implemented queries for:
+
+* Top Selling Products
+* Revenue by Category
+* Product Performance Analysis
+
+---
+
+# 📅 Sales Trend Analytics
+
+Implemented queries for:
+
+* Daily Sales Trends
+* Monthly Sales Trends
+* Seasonal Sales Patterns
+
+---
+
+# ❓ Business Questions Answered
+
+### Revenue
+
+* What is the monthly revenue trend?
+* Which quarter generated the highest revenue?
+
+### Customer
+
+* Who are the top customers by spend?
+* Which customers place the most orders?
+
+### Product
+
+* Which products generate the highest revenue?
+* Which product categories perform best?
+
+### Operations
+
+* How many orders are placed daily?
+* What are the seasonal sales trends?
+
+---
+
+# 📂 Repository Enhancements
+
+Added:
+
+```text
+sql/
+│
+├── oltp_tables.sql
+├── star_schema.sql
+├── warehouse_load.sql
+├── analytics_queries.sql
+```
+
+---
+
+# 📚 Key Learnings
+
+## Day 3
+
+* Data generation techniques
+* ETL design fundamentals
+* Data warehouse loading process
+* Fact and dimension population
+
+## Day 4
+
+* Dimensional query design
+* Aggregation techniques
+* Business intelligence reporting
+* Star schema optimization
+* Analytical SQL development
 
 ---
 

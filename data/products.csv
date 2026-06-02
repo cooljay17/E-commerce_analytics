@@ -1,0 +1,201 @@
+product_id,Product Name,Category,Price
+1,Premium Noise-Canceling Headphones,Electronics,24999.0
+2,Ultra HD 4K 55-inch Smart TV,Electronics,54999.0
+3,Ergonomic Mechanical Keyboard,Electronics,4599.0
+4,10000mAh Power Bank,Electronics,1299.0
+5,Smartwatch with Fitness Tracker,Electronics,7999.0
+6,Portable Bluetooth Speaker,Electronics,2899.0
+7,Gaming Mouse with RGB,Electronics,3499.0
+8,True Wireless Earbuds,Electronics,4999.0
+9,15.6-inch Laptop,Electronics,52000.0
+10,12MP Action Camera,Electronics,14500.0
+11,Men's Classic Leather Wallet,Fashion & Lifestyle,1299.0
+12,Women's Casual Handbag,Fashion & Lifestyle,2499.0
+13,Men's Running Shoes,Fashion & Lifestyle,3999.0
+14,Designer Sunglasses,Fashion & Lifestyle,1899.0
+15,Women's Formal Dress,Fashion & Lifestyle,3599.0
+16,Waterproof Sports Watch,Fashion & Lifestyle,2999.0
+17,Cotton Blend Polo T-Shirt,Fashion & Lifestyle,999.0
+18,Denim Jeans,Fashion & Lifestyle,1499.0
+19,Leather Crossbody Bag,Fashion & Lifestyle,3299.0
+20,Stainless Steel Watch,Fashion & Lifestyle,4999.0
+21,Stainless Steel Cookware Set,Home & Kitchen,7500.0
+22,Air Fryer 4L,Home & Kitchen,4999.0
+23,Non-Stick Dosa Tawa,Home & Kitchen,899.0
+24,Electric Kettle 1.5L,Home & Kitchen,1299.0
+25,Automatic Coffee Maker,Home & Kitchen,12500.0
+26,Blender & Smoothie Maker,Home & Kitchen,2999.0
+27,Vacuum Insulated Water Bottle,Home & Kitchen,799.0
+28,Dinner Plate Set of 6,Home & Kitchen,1499.0
+29,Storage Container Set,Home & Kitchen,599.0
+30,Microwave Oven 20L,Home & Kitchen,6500.0
+31,Hydrating Face Serum,Beauty & Personal Care,899.0
+32,Matte Lipstick,Beauty & Personal Care,499.0
+33,Hair Dryer,Beauty & Personal Care,1499.0
+34,Men's Perfume 100ml,Beauty & Personal Care,1299.0
+35,Daily Moisturizer,Beauty & Personal Care,699.0
+36,Makeup Brush Set,Beauty & Personal Care,799.0
+37,Charcoal Peel-Off Mask,Beauty & Personal Care,349.0
+38,Argan Hair Oil,Beauty & Personal Care,599.0
+39,Anti-Dandruff Shampoo,Beauty & Personal Care,399.0
+40,Professional Trimmer,Beauty & Personal Care,1199.0
+41,Yoga Mat 6mm,Sports & Fitness,999.0
+42,Adjustable Dumbbell Set,Sports & Fitness,2499.0
+43,Resistance Bands Set,Sports & Fitness,799.0
+44,Sports Duffle Bag,Sports & Fitness,1299.0
+45,Cricket Bat,Sports & Fitness,3599.0
+46,Running Armband,Sports & Fitness,399.0
+47,Gym Shaker Bottle,Sports & Fitness,499.0
+48,Skipping Rope,Sports & Fitness,249.0
+49,Badminton Racket,Sports & Fitness,1499.0
+50,Whey Protein 1kg,Sports & Fitness,2299.0
+51,Fiction Paperback Novel,Books,399.0
+52,Self-Help Book,Books,299.0
+53,Business Strategy Book,Books,499.0
+54,Children's Story Book,Books,199.0
+55,Cookbook,Books,599.0
+56,Biography Book,Books,450.0
+57,Sci-Fi Novel,Books,350.0
+58,Thriller Novel,Books,380.0
+59,Art & Design Book,Books,799.0
+60,Poetry Collection,Books,250.0
+61,Indoor Desk Plant,Garden & Outdoors,499.0
+62,Gardening Trowel,Garden & Outdoors,199.0
+63,Metal Watering Can,Garden & Outdoors,499.0
+64,Patio Chair,Garden & Outdoors,1500.0
+65,Solar Garden Lights,Garden & Outdoors,899.0
+66,Hand Pruner,Garden & Outdoors,299.0
+67,Plant Fertilizer,Garden & Outdoors,399.0
+68,Ceramic Pot,Garden & Outdoors,349.0
+69,Hose Pipe 15m,Garden & Outdoors,699.0
+70,Bird Feeder,Garden & Outdoors,599.0
+71,Baby Feeding Bottle,Baby & Kids,399.0
+72,Baby Diapers Pack,Baby & Kids,899.0
+73,Cotton Baby Onesie,Baby & Kids,499.0
+74,Educational Building Blocks,Baby & Kids,799.0
+75,Baby Stroller,Baby & Kids,4999.0
+76,Plush Teddy Bear,Baby & Kids,599.0
+77,Kids Drawing Book,Baby & Kids,199.0
+78,Baby Bath Tub,Baby & Kids,1299.0
+79,Musical Baby Toy,Baby & Kids,499.0
+80,Baby Wipes Pack,Baby & Kids,199.0
+81,Dog Food 3kg,Pet Supplies,1299.0
+82,Cat Litter 10kg,Pet Supplies,699.0
+83,Pet Chew Toy,Pet Supplies,199.0
+84,Dog Collar & Leash,Pet Supplies,399.0
+85,Pet Grooming Brush,Pet Supplies,299.0
+86,Stainless Steel Pet Bowl,Pet Supplies,249.0
+87,Pet Bed,Pet Supplies,999.0
+88,Catnip Spray,Pet Supplies,250.0
+89,Fish Food Flakes,Pet Supplies,150.0
+90,Pet Carrier,Pet Supplies,1499.0
+91,Car Windshield Sunshade,Automotive Accessories,499.0
+92,Portable Car Vacuum Cleaner,Automotive Accessories,1299.0
+93,Car Dashboard Idol,Automotive Accessories,299.0
+94,Leather Steering Wheel Cover,Automotive Accessories,599.0
+95,Car Air Freshener,Automotive Accessories,150.0
+96,Tubeless Tire Puncture Kit,Automotive Accessories,399.0
+97,Car Mobile Holder,Automotive Accessories,349.0
+98,Jump Starter Cables,Automotive Accessories,899.0
+99,Microfiber Cleaning Cloth,Automotive Accessories,199.0
+100,Car Seat Cushion,Automotive Accessories,799.0
+101,Wireless Router,Electronics,2499.0
+102,External Hard Drive 1TB,Electronics,4999.0
+103,PC Gaming Controller,Electronics,1999.0
+104,Graphic Drawing Tablet,Electronics,3999.0
+105,LED Desk Lamp,Electronics,999.0
+106,USB-C Hub,Electronics,1500.0
+107,Smart Wi-Fi Bulb,Electronics,699.0
+108,Mini Projector,Electronics,8999.0
+109,DSLR Camera,Electronics,45000.0
+110,Bluetooth Keyboard,Electronics,1299.0
+111,Casual Denim Shirt,Fashion & Lifestyle,1299.0
+112,Formal Blazer,Fashion & Lifestyle,3999.0
+113,Printed Beach Hat,Fashion & Lifestyle,499.0
+114,Winter Scarf,Fashion & Lifestyle,399.0
+115,Leather Belt,Fashion & Lifestyle,799.0
+116,Silk Necktie,Fashion & Lifestyle,499.0
+117,Slip-on Loafers,Fashion & Lifestyle,1999.0
+118,Casual Shorts,Fashion & Lifestyle,799.0
+119,Raincoat,Fashion & Lifestyle,599.0
+120,Woolen Beanie,Fashion & Lifestyle,299.0
+121,Insulated Lunch Box,Home & Kitchen,699.0
+122,Ceramic Coffee Mug,Home & Kitchen,199.0
+123,Cast Iron Skillet,Home & Kitchen,1899.0
+124,Cotton Bedsheet Set,Home & Kitchen,1499.0
+125,Door Mat,Home & Kitchen,299.0
+126,Window Curtains,Home & Kitchen,899.0
+127,LED Emergency Light,Home & Kitchen,499.0
+128,Wall Clock,Home & Kitchen,599.0
+129,Floor Mop with Bucket,Home & Kitchen,799.0
+130,Cloth Drying Stand,Home & Kitchen,1499.0
+131,Lip Balm,Beauty & Personal Care,150.0
+132,Sunscreen SPF 50,Beauty & Personal Care,499.0
+133,Aloe Vera Gel,Beauty & Personal Care,299.0
+134,Nail Polish Remover,Beauty & Personal Care,99.0
+135,Sheet Mask,Beauty & Personal Care,150.0
+136,Makeup Pouch,Beauty & Personal Care,299.0
+137,Body Lotion 200ml,Beauty & Personal Care,349.0
+138,Deodorant Spray,Beauty & Personal Care,249.0
+139,Kajal Pencil,Beauty & Personal Care,199.0
+140,Hand Sanitizer,Beauty & Personal Care,99.0
+141,Protein Shaker Bottle,Sports & Fitness,399.0
+142,Ankle Weights,Sports & Fitness,599.0
+143,Boxing Gloves,Sports & Fitness,1599.0
+144,Swimming Goggles,Sports & Fitness,499.0
+145,Bicycle Helmet,Sports & Fitness,1299.0
+146,Yoga Block,Sports & Fitness,349.0
+147,Sports Cap,Sports & Fitness,299.0
+148,Football,Sports & Fitness,799.0
+149,Basketball Net,Sports & Fitness,499.0
+150,Push-up Bar,Sports & Fitness,499.0
+151,English Dictionary,Books,350.0
+152,Sketch Book,Books,199.0
+153,Novel Box Set,Books,1200.0
+154,Financial Management Book,Books,499.0
+155,Travel Guide Book,Books,399.0
+156,History Textbook,Books,600.0
+157,Coloring Book for Adults,Books,250.0
+158,Health & Diet Book,Books,350.0
+159,Motivational Book,Books,299.0
+160,Photography Book,Books,899.0
+161,Plastic Plant Pots,Garden & Outdoors,299.0
+162,Gardening Gloves,Garden & Outdoors,149.0
+163,Lawn Mower,Garden & Outdoors,5500.0
+164,Garden Shovel,Garden & Outdoors,249.0
+165,Watering Sprinkler,Garden & Outdoors,399.0
+166,Outdoor Bench,Garden & Outdoors,2899.0
+167,Organic Potting Soil,Garden & Outdoors,199.0
+168,Pruning Shears,Garden & Outdoors,349.0
+169,Trellis for Plants,Garden & Outdoors,499.0
+170,Weed Puller,Garden & Outdoors,299.0
+171,Baby Teether,Baby & Kids,199.0
+172,Baby Sleeping Bag,Baby & Kids,1299.0
+173,Baby Feeding Spoon Set,Baby & Kids,150.0
+174,Musical Walker,Baby & Kids,1599.0
+175,Kids Rain Boots,Baby & Kids,699.0
+176,Baby Cap & Mitten Set,Baby & Kids,299.0
+177,Kids Story Book,Baby & Kids,150.0
+178,Baby Play Mat,Baby & Kids,1499.0
+179,Baby Carrier,Baby & Kids,2299.0
+180,Kids School Bag,Baby & Kids,899.0
+181,Bird Cage,Pet Supplies,1299.0
+182,Pet Flea Collar,Pet Supplies,499.0
+183,Cat Scratching Post,Pet Supplies,899.0
+184,Pet Water Dispenser,Pet Supplies,599.0
+185,Dog Treat Pouch,Pet Supplies,299.0
+186,aquarium Filter,Pet Supplies,499.0
+187,Hamster Wheel,Pet Supplies,349.0
+188,Pet Poop Bags,Pet Supplies,150.0
+189,Dog Training Clicker,Pet Supplies,99.0
+190,Pet Seat Cover,Pet Supplies,1199.0
+191,Car Steering Knob,Automotive Accessories,299.0
+192,Blind Spot Mirrors,Automotive Accessories,199.0
+193,Car Wash Shampoo,Automotive Accessories,299.0
+194,Car Trunk Organizer,Automotive Accessories,799.0
+195,Tire Inflator,Automotive Accessories,2299.0
+196,Car Emergency Tool Kit,Automotive Accessories,1500.0
+197,Antifreeze Coolant,Automotive Accessories,399.0
+198,Car Key Cover,Automotive Accessories,149.0
+199,Car Reverse Camera,Automotive Accessories,1899.0
+200,License Plate Frame,Automotive Accessories,249.0
